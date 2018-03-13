@@ -1,1 +1,1 @@
-# interview-node
+# Node interview boilerplate
