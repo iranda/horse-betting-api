@@ -1,1 +1,1 @@
-# Node interview boilerplate
+# Bitting on horses API

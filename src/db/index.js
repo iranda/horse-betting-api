@@ -1,43 +1,68 @@
-const snacks = [
+const horses = [
   {
-    id: 'foo',
-    name: 'Foolicious snack',
-    requestedBy: 'JB',
+    id: '1',
+    name: 'Bounty',
+    requestedBy: 'Michale',
+    dob: '04/20/2018',
+    plays: [],
     votes: [
       {
-        user: 'Alvaro',
+        id: '123',
+        user: 'Kittie Weinmann',
       },
       {
-        user: 'Leire',
+        id: '456',
+        user: 'Hiedi Golston',
       }
     ],
   },
   {
-    id: 'bar',
-    name: 'Barlicious snack',
-    requestedBy: 'Alvaro',
+    id: '2',
+    name: 'Jack',
+    requestedBy: 'Deena',
+    dob: '05/25/2016',
+    plays: [],
     votes: [
       {
-        user: 'JB',
+        id: '645',
+        user: 'Tristan Paules',
       },
       {
-        user: 'Alvaro',
+        id: '456',
+        user: 'Hiedi Golston',
       },
       {
-        user: 'Leire',
+        id: '123',
+        user: 'Kittie Weinmann',
       }
     ]
   },
   {
-    id: 'biz',
-    name: 'Bizlicious snack',
-    requestedBy: 'Leire',
+    id: '3',
+    name: 'Boris',
+    requestedBy: 'Leighann',
+    dob: '04/17/2018',
+    plays: [],
     votes: [
       {
-        user: 'Alvaro',
+        id: '645',
+        user: 'Tristan Paules',
+      }
+    ]
+  },
+  {
+    id: '4',
+    name: 'Boris',
+    requestedBy: 'Leighann',
+    dob: '02/10/2017',
+    plays: [],
+    votes: [
+      {
+        id: '645',
+        user: 'Tristan Paules',
       }
     ]
   }
 ];
 
-module.exports = snacks;
+module.exports = horses;

@@ -1,8 +1,8 @@
 const express = require('express');
-const snacksController = require('../../../controllers/apis/snacks');
+const horsesController = require('../../../controllers/apis/horses');
 
 const router = express.Router();
 
-router.use('/snacks', snacksController);
+router.use('/horses', horsesController);
 
 module.exports = router;
